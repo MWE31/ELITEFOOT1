@@ -1,0 +1,162 @@
+@media screen and (max-width: 768px) {
+  /* Styles pour les écrans de largeur maximale de 768px (par exemple, les téléphones) */
+}
+/* Ajoutez ceci à votre fichier CSS (carte.css) */
+
+.Main {
+  display: flex; /* Utilisez un modèle de boîte flexible pour aligner les éléments côte à côte */
+  justify-content: space-between; /* Espacez les éléments horizontalement */
+}
+
+/* Déplacez le texte à côté de la carte */
+.news-item {
+  margin: 0; /* Réinitialisez les marges pour éviter un espacement indésirable */
+  background: none; /* Supprimez l'arrière-plan */
+  padding: 0; /* Réinitialisez le rembourrage */
+  font-size: 16px; /* Ajustez la taille de la police selon vos préférences */
+  color: #333; /* Couleur du texte */
+}
+
+.CardWrapper {
+  margin: 00; /* Réinitialisez les marges */
+}
+body {
+    margin: 0;
+    background: linear-gradient(0deg, #f4f4f4, #bba781);
+    
+  }
+  .BoxWrapper {
+    height: 430px;
+    width: 300px;
+    /* border: solid; */
+    margin: auto;
+    background: linear-gradient(0deg, #f4f4f4, #bba781);
+    border-radius: 65px;
+    position: relative;
+    box-shadow: 3px 0 grey;
+  }
+  .WrapperLeftCorner {
+      height: 47px;
+      width: 45px;
+      float:left;
+      background: transparent;
+      border-radius: 0 0 90px;
+    
+  }
+  .WrapperRightCorner {
+      height: 47px;
+      /* display: inline-block; */
+      width: 45px;
+      float: right;
+      background: transparent;
+      border-radius: 0 0 0 90px;
+  }
+  .WrapperLeftCornerB {
+      height: 47px;
+      width: 45px;
+      background: transparent;
+      border-radius: 0 0 90px;
+      position:absolute;
+  }
+  .WrapperRightCornerB {  
+   display:none;
+  }
+  .CardWrapper {
+    height:100%;
+  }
+  .TeamLogo {
+    position:absolute;
+    margin-left:-62px;
+  }
+  .rating {
+      font-size: 45px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 5px;
+      position: absolute;
+      margin-top: 45px;
+      margin-left: 40px;
+  }
+  .position {
+      font-size: 25px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 5px;
+      position: absolute;
+      margin-top: 97px;
+      margin-left: 47px;
+      border-bottom: solid 2px;
+  }
+  .flag {
+      padding: 5px;
+      position: absolute;
+      margin-top: 140px;
+      margin-left: 40px;
+      border-bottom: solid 2px;
+  }
+  .logo {
+      padding: 5px;
+      position: absolute;
+      margin-top: 190px;
+      margin-left: 42px;
+  }
+  .Cardimage {
+      float:right;
+      padding: 10px;
+      position: center;
+      margin-left: -48px;
+  }
+  .PlayerName {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:28px;
+    text-align:center;
+    position:absolute;
+    margin-top: 240px;
+    margin-left: 30px;
+    width: 80%;
+    border-bottom: solid 2px;
+  
+  }
+  .leftCol,.rightCol {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:25px;
+    
+  }
+  .leftCol{
+    position:absolute;
+    margin-top: 280px;
+    margin-left: 50px;
+    height: 120px
+  }
+  .rightCol{
+    position:absolute;
+    margin-top: 280px;
+    margin-left: 162px;
+  }
+  p {
+    padding:0;
+    margin:6px;
+  }
+  .BottomSection {
+    height:200px;
+    bottom:0;
+    width:100%;
+  }
+  .CardWrapper {
+    position: relative;
+}
+
+.BackgroundText {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5); /* Couleur de fond semi-transparente */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Appliquer le texte au fond de la carte */
+.BackgroundText::after {
+    content: "ÉLITE FOOT";
+    
+}

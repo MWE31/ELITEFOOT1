@@ -1,0 +1,62 @@
+/* Réinitialisation des marges et des rembourrages pour une mise en page cohérente */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles pour la classe "title" */
+.title {
+    text-align: center;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.title p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Styles pour la classe "auction" */
+.auction {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+}
+
+/* Styles pour les liens */
+a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0061a4; /* Couleur 1 au survol */
+}
+
+a:hover:hover {
+    color: #ffffff; /* Couleur 2 au survol du survol */
+}
+
+a:hover:hover:hover {
+    color: #d60920 /* Couleur 3 au survol du survol du survol */
+}

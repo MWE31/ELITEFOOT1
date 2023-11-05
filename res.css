@@ -1,0 +1,79 @@
+/* Styles généraux pour les écrans de toutes tailles */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles pour les grands écrans (ordinateurs de bureau) */
+@media (min-width: 1024px) {
+    .navbar {
+        /* Styles pour la barre de navigation sur les grands écrans */
+        background-color: transparent; /* Exemple de style de fond différent pour les grands écrans */
+    }
+
+    .box {
+        /* Styles pour la boîte sur les grands écrans */
+        margin: 20px; /* Exemple de marge différente pour les grands écrans */
+    }
+
+    .auction {
+        /* Styles pour la section "JOUEURS FRANÇAIS" sur les grands écrans */
+        display: flex; /* Exemple d'utilisation de flexbox pour aligner les joueurs en ligne sur les grands écrans */
+        flex-wrap: wrap; /* Permet aux joueurs de passer à la ligne lorsque l'écran est étroit */
+    }
+}
+
+/* Styles pour les écrans de taille moyenne (tablettes) */
+@media (max-width: 1023px) {
+    .navbar {
+        /* Styles pour la barre de navigation sur les écrans moyens */
+        background-color: transparent; /* Exemple de style de fond différent pour les écrans moyens */
+    }
+
+    .box {
+        /* Styles pour la boîte sur les écrans moyens */
+        margin: 10px; /* Exemple de marge différente pour les écrans moyens */
+    }
+
+    .auction {
+        /* Styles pour la section "JOUEURS FRANÇAIS" sur les écrans moyens */
+        display: block; /* Affiche les joueurs en colonnes */
+    }
+}
+
+/* Styles pour les petits écrans (téléphones) */
+@media (max-width: 768px) {
+    .navbar {
+        /* Styles pour la barre de navigation sur les petits écrans */
+        background-color: transparent; /* Exemple de style de fond différent pour les petits écrans */
+    }
+
+    .box {
+        /* Styles pour la boîte sur les petits écrans */
+        margin: 5px; /* Exemple de marge différente pour les petits écrans */
+    }
+
+    .auction {
+        /* Styles pour la section "JOUEURS FRANÇAIS" sur les petits écrans */
+        display: block; /* Affiche les joueurs en colonnes */
+    }
+}
+/* Ajoutez ces styles pour améliorer la lisibilité sur les petits écrans */
+/* Styles pour les petits écrans (téléphones) */
+@media (max-width: 768px) {
+    .infobox-slimtext {
+        font-size: 18px; /* Réduisez la taille du texte de la boîte d'informations */
+        text-align: center; /* Centrez le texte */
+    }
+    .item-title {
+        font-size: 18px; /* Réduisez la taille du texte du titre des pays */
+    }
+    .item {
+        font-size: 18px; /* Réduisez la taille du texte de la boîte d'informations */
+        text-align: center; /* Centrez le contenu des éléments "item" */
+    }
+}
+
+/* Si le texte est encore difficile à lire, vous pouvez également ajuster la taille de police ou d'autres styles selon vos préférences. */
+

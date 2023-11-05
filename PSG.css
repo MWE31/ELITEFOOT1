@@ -1,0 +1,160 @@
+/* Styles pour le bouton PSG */
+.nav-link {
+    background-color: #0055A4; /* Couleur bleue PSG */
+    color: #FFFFFF; /* Texte en blanc */
+    padding: 10px 20px; /* Marge interne pour le bouton */
+    border-radius: 5px; /* Coins arrondis */
+    text-decoration: none; /* Supprimer le soulignement du lien */
+    font-weight: bold; /* Texte en gras */
+    transition: background-color 0.3s; /* Transition pour le changement de couleur */
+}
+/* Animation de survol pour les cartes des joueurs */
+.opta.player.stats:hover {
+    /* Exemple d'animation, vous pouvez personnaliser selon vos préférences */
+    transform: scale(1.1); /* Zoom sur la carte au survol */
+    transition: transform 0.3s ease; /* Durée de l'animation et type de transition */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ombre portée */
+  }
+  
+  /* Réinitialisation de l'animation lorsque la souris quitte la carte */
+  .opta.player.stats {
+    transition: transform 0.3s ease;
+  }
+  
+  
+  /* Réinitialisation des styles par défaut du navigateur */
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  /* Styles de base pour le corps de la page */
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #0c2340;
+      color: #ffffff;
+  }
+  
+  /* Styles pour l'en-tête */
+  header {
+      background-image: url('https://zupimages.net/up/23/41/sy36.png');
+      background-size:cover; /* Ajuster l'image pour couvrir tout l'en-tête */
+      background-position: center; /* Centrer l'image horizontalement et verticalement */
+      text-align: center;
+      padding: 240px;
+  }
+  
+  header h1 {
+      font-size: 110px;
+      margin-bottom: 20px;
+      color: #fff;
+  }
+  
+  header p {
+      font-size: 18px;
+      margin-bottom: 20px;
+      width: 150;
+  }
+  
+  /* Styles pour la section "Effectif Actuel" */
+  .roster {
+      text-align: center;
+      padding: 20px;
+  }
+  
+  .roster h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+  }
+  
+  .field {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  
+  .player {
+      width: 150px;
+      margin: 10px;
+  }
+  
+  .player img {
+      max-width: 100%;
+      height: auto;
+      border: 2px solid #001233;
+  }
+  
+  .player p {
+      font-size: 16px;
+      margin-top: 5px;
+      color: #fff;
+  }
+  
+  /* Styles pour la section "Histoire du Club" */
+  .history {
+      background: #001233;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+  }
+  
+  .history h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #fff;
+  }
+  
+  .history p {
+      font-size: 18px;
+      color: #fff;
+  }
+  
+  /* Lien par défaut pour les hyperliens */
+  a {
+      color: #fff;
+  }
+  
+  /* Style du terrain de football (ajouter des styles CSS pour le terrain ici) */
+  .pitch img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+  }
+  
+  /* Media Queries pour la conception responsive */
+  @media (max-width: 768px) {
+      header {
+          padding: 50px;
+      }
+      
+      header h1 {
+          font-size: 60px;
+      }
+      
+      header p {
+          font-size: 16px;
+      }
+      
+      .roster h2 {
+          font-size: 24px;
+      }
+      
+      .player {
+          width: 120px;
+      }
+      
+      .player p {
+          font-size: 14px;
+      }
+      
+      .history h2 {
+          font-size: 24px;
+      }
+      
+      .history p {
+          font-size: 16px;
+      }
+  }
+  
